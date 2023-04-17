@@ -10,3 +10,9 @@ class BinaryTreeNode(Generic[T]):
         self.val: T = val
         self.left: Optional[BinaryTreeNode] = left
         self.right: Optional[BinaryTreeNode] = right
+
+
+class GraphEdge:
+    def __init__(self, to: int, weight: int):
+        self.to = to
+        self.weight = weight
