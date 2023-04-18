@@ -3,6 +3,12 @@ from typing import TypeVar, Generic, Optional
 T = TypeVar("T")
 
 
+class Point:
+    def __init__(self, x: int, y: int):
+        self.x = x
+        self.y = y
+
+
 class BinaryTreeNode(Generic[T]):
     def __init__(self, val: T,
                  left: Optional['BinaryTreeNode'] = None,
