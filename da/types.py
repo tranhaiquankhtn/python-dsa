@@ -9,6 +9,13 @@ class Point:
         self.y = y
 
 
+class Node:
+    def __init__(self, item: int):
+        self.value = item
+        self.next: Node = None
+        self.prev: Node = None
+
+
 class BinaryTreeNode(Generic[T]):
     def __init__(self, val: T,
                  left: Optional['BinaryTreeNode'] = None,
