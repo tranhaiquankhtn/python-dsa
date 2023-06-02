@@ -51,11 +51,10 @@ class Trie:
         prefix = ""
         cur = self.root
         for w in term:
-            if w in cur.children:
-                prefix += w
-                cur = cur.children[w]
-            else:
+            if w not in cur.children:
                 return []
+            prefix += w
+            cur = cur.children[w]
 
         words = []
         self.dfs(cur, prefix, words)
