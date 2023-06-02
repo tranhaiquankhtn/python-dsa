@@ -27,6 +27,8 @@ A simple python version of [Kata-machine](https://github.com/ThePrimeagen/kata-m
   * [DFS](https://github.com/tranhaiquankhtn/python-da/blob/master/da/graph/dfs.py)
   * [Dijkstra](https://github.com/tranhaiquankhtn/python-da/blob/master/da/graph/dijkstra.py)
 
+## Note
+There are more to update in the list.
 
 ## Testing
 ```
